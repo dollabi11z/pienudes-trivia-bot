@@ -1,0 +1,30 @@
+{
+  "cytubeServer": "cytu.be",
+  "username": "pienudes_bot",
+  "pw": "xxxxxx",
+  "room": "pienudes",
+  "roompassword": "",
+  "wolfram": "",
+  "weatherunderground": "",
+  "mstranslateclient": "",
+  "mstranslatesecret": "",
+  "youtubev3": "",
+  "deleteIfBlockedIn": "",
+  "enableWebServer": false,
+  "webURL": "http://localhost",
+  "webPort": 8080,
+  "socketPort": 8090,
+  "useIRC": false,
+  "ircServer": "",
+  "ircNick": "",
+  "ircPass": "",
+  "ircChannel": "",
+  "usemodflair": true,
+  "enableLogging": true,
+  "maxvideolength": 600000,
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "db": 15
+  }
+}

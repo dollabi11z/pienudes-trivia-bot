@@ -1,0 +1,21 @@
+body {
+	background-color: black !important;
+}
+
+h1 {
+	color: white !important;
+}
+
+.channel-emote {
+    max-height: 100px;
+    max-width:  70px;
+    background-color: black;
+}
+
+.popover {
+	background-color: black !important;
+}
+
+tr span {
+	color: white;
+}
