@@ -1,6 +1,22 @@
 var forever = require("forever-monitor")
 var fs = require("fs");
 
+/*
+var buffer = fs.readFileSync("questions.json");
+var questions   = JSON.parse(buffer);
+buffer = fs.readFileSync("sorted_cats.json");
+var categories = JSON.parse(buffer);
+var filtered = [];
+questions.forEach(function(question) {
+    var cat = question.category.toLowerCase().replace("'", "");
+    if (categories[cat] != undefined) {
+        filtered.push(question);
+    }
+});
+fs.writeFileSync("pop_questions.json", JSON.stringify(filtered, null, '\t'));
+*/
+
+
 var child = new (forever.Monitor)("./lib/start.js", {
 	max: 21,
 	silent: false,
